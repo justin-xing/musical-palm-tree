@@ -1,0 +1,40 @@
+import java.io.*;
+public class justinhomework3{
+  public static void main(String [] args) throws IOException{
+    System.out.println("Welcome to the Television/Movie Database program!");
+    System.out.println("What would you like to watch (Please enter TV or Movie)?");
+    
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    String answer;
+    answer = br.readLine();
+    
+    if (answer.equals ("TV")) {
+      System.out.println("You have chosen to watch TV. Please select one of the following types of TV shows (input 1 or 2):");
+      System.out.println("1. live action \n2. animated");
+      answer = br.readLine();}
+                         
+    if (answer.equals ("live action")){
+      System.out.println("You have chosen live action TV. The following is a list of your favourite live action TV shows.");
+      System.out.println("-Brooklyn Nine Nine \n-The Office");}
+                         
+    else if (answer.equals ("animated")){
+      System.out.println("You have chosen animated TV. The following is a list of your favourite animated TV shows.");
+      System.out.println("-Bob's Burgers \n-Zaboomafoo");}
+    
+    if (answer.equals ("Movie")){
+      System.out.println("You have chosen to watch a movie. Please select one of the following types of movies (input 1 or 2):");
+      System.out.println("1. live action \n2. animated");
+      answer = br.readLine();}
+      
+    if (answer.equals ("live action")){
+      System.out.println("You have chosen live action movies. The following is a list of your favourite live action movies.");
+      System.out.println("-The Winter Solider \n-Civil War");}
+                      
+    else if (answer.equals ("animated")){
+      System.out.println("You have chosen animated movies. The following is a list of your favourite animated movies.");
+      System.out.println("-Big Hero 6 \n-Toy Story \n-The Lion King");}
+else{
+  System.out.println("That is not a choice");}
+
+  }
+}
