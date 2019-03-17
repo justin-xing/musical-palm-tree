@@ -1,0 +1,27 @@
+public class Justinhomework1{
+  
+ public static void main(String[] args){
+    System.out.println ("--Your Profile--") ;
+    String nick = "Justin";
+      System.out.println ("Nickname: " + nick) ;
+      int ag = 13;
+        System.out.println ("Age: " + ag) ;
+        String birth = "May ";
+        int birth2 = 26;
+        System.out.println ("Birthday: " + birth +  birth2) ;
+        int prog = 1;
+        System.out.println ("Programs shared: " + prog) ;
+        System.out.println ("             ");
+         System.out.println ("--Predicted Profile After 1 Year--") ;
+      System.out.println ("Nickname: " + nick) ;
+      int bonusage = 1;
+      ag = ag + bonusage;
+        System.out.println ("Age: " + ag) ;
+        System.out.println ("Birthday: " + birth +  birth2) ;
+        int bonusprog = 30;
+        prog = prog + bonusprog;
+        System.out.println ("Programs shared: " + prog) ;
+  }
+  
+}
+
