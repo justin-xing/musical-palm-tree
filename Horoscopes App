@@ -1,0 +1,151 @@
+import java.io.*;
+public class justinhomework2{
+  
+  public static void main (String [] argsv)throws IOException {
+    System.out.println ("Welcome to the horoscopes app!");
+      System.out.println ("Please input your birth month as a number!");
+      int number;
+    
+    BufferedReader br = new BufferedReader (new InputStreamReader (System.in) ) ;
+    number = Integer.parseInt (br. readLine () ) ;
+    if (number == 1) {
+      System.out.println ("Please input your birth day");
+    }
+       else if (number == 2) {
+      System.out.println ("Please input your birth day");
+    }
+           else if (number == 3) {
+      System.out.println ("Please input your birth day");
+    }
+               else if (number == 4) {
+      System.out.println ("Please input your birth day");
+    }
+                   else if (number == 5) {
+      System.out.println ("Please input your birth day");
+    }
+                       else if (number == 6) {
+      System.out.println ("Please input your birth day");
+    }
+                           else if (number == 7) {
+      System.out.println ("Please input your birth day");
+    }
+                               else if (number == 8) {
+      System.out.println ("Please input your birth day");
+    }
+                                   else if (number == 9) {
+      System.out.println ("Please input your birth day");
+    }
+                                       else if (number == 10) {
+      System.out.println ("Please input your birth day");
+    }
+                                           else if (number == 11) {
+      System.out.println ("Please input your birth day");
+    }
+                                               else if (number == 12) {
+      System.out.println ("Please input your birth day");
+    }
+                                                
+    int two;
+    
+    BufferedReader bruh = new BufferedReader (new InputStreamReader (System.in) ) ;
+    two = Integer.parseInt (bruh. readLine () ) ;
+    
+    if (two >= 1)
+      if (number == 1){
+      System.out.println ("you are an capricorn");
+    }
+    if (two >= 20)
+      if (number == 1){
+      System.out.println ("you are an aquarius");
+    }
+    if (two >= 1)
+      if (number == 2){
+      System.out.println ("you are an aquarius");
+    }
+    if (two >= 19)
+      if (number == 2){
+      System.out.println ("you are a pisces");
+    }
+    if (two >= 1)
+      if (number == 3){
+      System.out.println ("you are a pisces");
+    }
+    if (two >= 21)
+      if (number == 3){
+      System.out.println ("you are an aries");
+    }
+    else if (two >= 1)
+      if (number == 4){
+      System.out.println ("you are an aries");
+    }
+    if (two >= 20)
+      if (number == 4){
+      System.out.println ("you are a taurus");
+    }
+    else if (two >= 1)
+      if (number == 5){
+      System.out.println ("you are a taurus");
+    }
+    if (two >= 21)
+      if (number == 5){
+      System.out.println ("you are a gemini");
+    }
+    if (two >= 1)
+      if (number == 6){
+      System.out.println ("you are a gemini");
+    }
+    if (two >= 21)
+      if (number == 6){
+      System.out.println ("you are a cancer");
+    }
+    if (two >= 1)
+      if (number == 7){
+      System.out.println ("you are a cancer");
+    }
+    if (two >= 23)
+      if (number == 7){
+      System.out.println ("you are a leo");
+    }
+    if (two >= 1)
+      if (number == 8){
+      System.out.println ("you are a leo");
+    }
+    if (two >= 23)
+      if (number == 8){
+      System.out.println ("you are a virgo");
+    }
+    if (two >= 1)
+      if (number == 9){
+      System.out.println ("you are a virgo");
+    }
+    if (two >= 23)
+      if (number == 9){
+      System.out.println ("you are an libra");
+    }
+    if (two >= 1)
+      if (number == 10){
+      System.out.println ("you are an libra");
+    }
+    if (two >= 23)
+      if (number == 10){
+      System.out.println ("you are a scorpio");
+    }
+    if (two >= 1)
+      if (number == 11){
+      System.out.println ("you are a scorpio");
+    }
+    if (two >= 22)
+      if (number == 11){
+      System.out.println ("you are a saggittarius");
+    }
+    if (two >= 1)
+      if (number == 12){
+      System.out.println ("you are a saggittarius");
+    }
+    if (two >= 22)
+      if (number == 12){
+      System.out.println ("you are an capricorn");
+    }
+    
+  }
+}
