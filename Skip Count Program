@@ -1,0 +1,23 @@
+import java.io.*;
+public class justinhmwk4{
+  public static void main(String [] args) throws IOException{
+    System.out.println ("Welcome to the Skip Count Program! \nPlease enter a number you would like to skip count by.");
+    int number;
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    number = Integer.parseInt (br. readLine () ) ;
+    
+    int number2;
+    System.out.println ("What number would you like to start at?");
+    number2 = Integer.parseInt (br. readLine () ) ;
+    
+    int number3;
+    System.out.println ("What number would you like to end at?");
+    number3 = Integer.parseInt (br. readLine () ) ;
+                        
+    while (number2 < number3){
+      System.out.println (number2);
+      number2 = (number2+number);
+    }
+  }
+}
+
