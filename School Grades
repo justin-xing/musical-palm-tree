@@ -1,0 +1,37 @@
+public class Main {
+  public static void main (String [] args) {
+    Student A  = newStudent(10477,0);
+    Student B = newStudent (10478,0);
+    Student C = newStudent (10479,0);
+    Student D = newStudent (10480,0);
+    
+    A.setgrade(Grade(70));
+               B.setgrade(Grade(85));
+                          C.setgrade(Grade(90));
+                                     D.setgrade(Grade(88));
+                                                
+                                                double average = (A.getgrade() + B.getgrade() + C.getgrade())3.0;
+                                                
+                                                System.out.println ("The class average is " + average);
+                                                                  }
+
+public class Student{
+  public static int Student_number;
+    public static int grade;
+}
+  
+public Student (int Number, int_grade) {
+  Student_number = Number;
+  grade=int_grade;
+  
+  public int getStudent_Number(returnStudent_number;)
+    public void setGrade(int newgrade){
+    grade = newgrade;
+}
+  
+  public string getgrade() {
+    return grade;
+  }
+}
+  
+  public class main
