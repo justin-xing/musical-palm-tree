@@ -1,0 +1,54 @@
+public class petclass {
+  
+  private String name;
+  private String animal;
+  private int age;
+  private String colour;
+  private int hunger;
+  
+  public void setName(String name) {
+    this.name = name;
+  }
+  
+  public void setAnimal(String animal) {
+    this.animal = animal;
+  }
+  
+  public void setAge(int age) {
+    this.age = age;
+  }
+  
+  public void setColour(String colour) {
+    this.colour = colour;
+  }
+  
+  public void setHunger(int hunger) {
+    this.hunger = hunger;
+  }
+  
+  public String getname() {
+    return name;
+  }
+  
+  public String getanimal() {
+    return animal;
+  }
+  
+  public int getage() {
+    return age;
+  }
+  
+  public String getcolour() {
+    return colour;
+  }
+  
+  public int gethunger() {
+    return hunger;
+  }
+  
+  public String toString() {
+    return "Name: " +  name + "Colour: " + "Animal: " + animal + "Age: " + age + "Hunger: " + hunger;
+  }
+  
+}
+
